@@ -1,0 +1,5 @@
+# Production - Environment configurations.,
+
+server:
+  port: 65534
+
