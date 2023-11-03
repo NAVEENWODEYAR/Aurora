@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SplitArray
 {
-	// subarray from original array..
+	// subArray from original array.,
 	static void splitArray(int[] arr)
 	{
 		System.out.println("\n Original size of the array:"+arr.length);
