@@ -10,7 +10,7 @@ public class ArroraApplication
 	public static void main(String[] args)
 	{
 		SpringApplication.run(ArroraApplication.class, args);
-		System.out.println("\n Roaring begins");
+		System.out.println("\n Roaring Begins.,");
 	}
 
 }
