@@ -15,6 +15,8 @@ public class Palindrome
 	public static void main(String[] args) 
 	{
 		System.out.println("\n Palindrome Program,");
+		System.out.println("\n-------------\n");
+		testPalindrome(" ");
 	}
 
 }
