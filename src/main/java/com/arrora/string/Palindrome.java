@@ -9,7 +9,6 @@ public class Palindrome
 			for(;;)
 			{
 				// infinate loop.,
-				System.out.println("\n*****");
 			}
 	}
 	
