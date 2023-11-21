@@ -13,7 +13,7 @@ public class SplitArray
 
 	public static void main(String[] args)
 	{
-		splitArray(new int[] {1,2,3,4,5,6,7,8,9,10,0});
+		splitArray(new int[] {1,2,3,4,5,6,7,8,9,10,0,8,2});
 	}
 
 }
