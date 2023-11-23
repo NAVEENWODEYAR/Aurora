@@ -10,7 +10,7 @@ public class ReadFile
 	private static void readFile()
 	{
 		// 1. open FileReader,
-		try(BufferedReader reader = new BufferedReader(new FileReader("student")))
+		try(BufferedReader reader = new BufferedReader(new FileReader("sts")))
 		{
 			String line;
 			// 2. Read line by line,
