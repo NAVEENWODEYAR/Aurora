@@ -27,6 +27,15 @@ public class ReadFile
 					String mail = values[2];
 					double marks = Double.parseDouble(values[3]);
 					float res = Float.parseFloat(values[4]);
+					String gender = values[5];
+					
+					// 5. Process the data,
+					System.out.println("Student Id:"+id);
+					System.out.println("Student Name:"+name);
+					System.out.println("Student Mail:"+mail);
+					System.out.println("Student Marks:"+marks);
+					System.out.println("Student Gender:"+gender);
+					System.out.println("Student Result:"+res);
 				} 
 				catch (Exception e) 
 				{
