@@ -10,7 +10,7 @@ public class ReadFile
 	private static void readFile()
 	{
 		// 1. open FileReader,
-		try(BufferedReader reader = new BufferedReader(new FileReader("sts")))
+		try(BufferedReader reader = new BufferedReader(new FileReader("sts.csv")))
 		{
 			String line;
 			// 2. Read line by line,
@@ -22,12 +22,13 @@ public class ReadFile
 					String[] values = line.split(",");
 					
 					// 4. store the values,
-					String name = values[0];
-					int id = Integer.parseInt(values[1]);
+					int id = Integer.parseInt(values[0]);
+					String name = values[1];
 					String mail = values[2];
-					double marks = Double.parseDouble(values[3]);
-					float res = Float.parseFloat(values[4]);
-					String gender = values[5];
+					String gender = values[3];
+					double marks = Double.parseDouble(values[4]);
+					float res = Float.parseFloat(values[5]);
+					
 					
 					// 5. Process the data,
 					System.out.println("Student Id:"+id);
