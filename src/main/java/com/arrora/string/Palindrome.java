@@ -12,6 +12,16 @@ public class Palindrome
 			}
 	}
 	
+	static final void testPalindrome1(String st)
+	{
+		System.out.println("\n Original String given,"+st);
+		char rev;
+			for(int i=st.length(); i>=0; i--)
+			{
+				rev = st.charAt(i);
+			}
+	}
+	
 	public static void main(String[] args) 
 	{
 		System.out.println("\n Palindrome Program,");
