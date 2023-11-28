@@ -29,7 +29,6 @@ public class ReadFile
 					double marks = Double.parseDouble(values[4]);
 //					float res = Float.parseFloat(values[5]);
 					
-					
 					// 5. Process the data,
 					System.out.println("Student Id:"+id);
 					System.out.println("Student Name:"+name);
