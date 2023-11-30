@@ -15,11 +15,15 @@ public class Palindrome
 	static final void testPalindrome1(String st)
 	{
 		System.out.println("\n Original String given,"+st);
-		char rev;
+		String rev = "";
 			for(int i=st.length(); i>=0; i--)
 			{
-				rev = st.charAt(i);
+				rev += st.charAt(i);
 			}
+			if(st.equalsIgnoreCase(rev))
+				System.out.println("Given string,"+st+", is an palindrome");
+			else
+				System.out.println("Given string,"+st+", is not a palindrome");
 	}
 	
 	public static void main(String[] args) 
